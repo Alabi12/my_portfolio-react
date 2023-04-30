@@ -2,3 +2,9 @@
   height: 70vh;
   background-color: #fff;
 }
+
+.main-page-text {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+}
