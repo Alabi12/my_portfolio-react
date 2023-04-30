@@ -1,0 +1,80 @@
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 100%;
+  background-color: #fff;
+
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-right {
+  width: 100%;
+}
+
+.stack1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.connect {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.socialIcons-about {
+  display: flex;
+  justify-content: flex-start;
+}
+.span-about {
+  display: flex;
+  font-size: 15px;
+  width: 20%;
+  margin-top: 1rem;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.span-about:hover {
+  background-color: #007bff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.stack2 {
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s;
+}
+
+.stack2:hover {
+  transform: scale(1.5);
+  background-color: rgb(229, 229, 229);
+}
+
+.stack-icons {
+  color: red;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.stack-iconRails {
+  color: red;
+  font-size: 30px;
+}
+
+.stack-iconOthers {
+  color: #007bff;
+  font-size: 30px;
+}
