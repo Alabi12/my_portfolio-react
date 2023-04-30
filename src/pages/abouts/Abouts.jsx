@@ -8,9 +8,9 @@ function About() {
   return (
     <>
       <div className="about-section">
-        <div className="about-right">
+        <div className="about-left">
           <h1 className="about-text">About Me</h1>
-          <p>
+          <p className="about-text0">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
