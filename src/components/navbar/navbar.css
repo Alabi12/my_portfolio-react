@@ -5,24 +5,22 @@
   height: 80px;
   background-color: transparent;
   box-shadow: none;
-  width: 80%;
-  margin: auto;
 }
 
 .logo {
   margin-right: auto;
   margin-left: 20px;
+  color: #fff;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
 }
 
 .nav-links a {
-  color: #333;
+  color: #fff;
   font-weight: bold;
   text-decoration: none;
   margin-right: 20px;
