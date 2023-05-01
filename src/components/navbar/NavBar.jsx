@@ -1,40 +1,34 @@
-import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
-function Navbar() {
-  const [showLinks, setShowLinks] = useState(false);
-
-  const toggleShowLinks = () => {
-    setShowLinks(!showLinks);
-  };
-
-  const handleLinkClick = () => {
-    setShowLinks(false);
-  };
-
+function NavBar() {
   return (
-    <nav className="navbar">
-      <div className="logo">
-        <img src="lego.png" alt="Lego Logo" />
+    <>
+      <div id="navbar" className="flex big-white">
+        <div className="logo">
+          <Link to="/">My Portfolio</Link>
+        </div>
+        <div>
+          <nav>
+            <ul className="group-links">
+              <div>
+                <Link to="/">Home</Link>
+              </div>
+              <div>
+                <Link to="/project">Projects</Link>
+              </div>
+              <div>
+                <Link to="/about">About</Link>
+              </div>
+              <div>
+                <Link to="/contact">Contact</Link>
+              </div>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div className={`nav-links ${showLinks ? "show" : ""}`}>
-        <a href="#projects" onClick={handleLinkClick}>
-          Project
-        </a>
-        <a href="#about" onClick={handleLinkClick}>
-          About
-        </a>
-        <a href="#contacts" onClick={handleLinkClick}>
-          Contacts
-        </a>
-      </div>
-      <div className="burger" onClick={toggleShowLinks}>
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
-      </div>
-    </nav>
+    </>
   );
 }
 
-export default Navbar;
+export default NavBar;
