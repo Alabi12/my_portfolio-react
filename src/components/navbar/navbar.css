@@ -13,6 +13,9 @@
 .logo a {
   text-decoration: none;
   margin: 10rem;
+  font-size: 25px;
+  color: #007bff;
+  font-weight: bold;
 }
 
 .group-links {
@@ -23,4 +26,11 @@
 
 .group-links a {
   text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.group-links a:hover {
+  border-bottom: 2px solid rgb(229, 229, 229);
+  padding: 0.2rem;
 }
