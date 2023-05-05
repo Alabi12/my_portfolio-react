@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./abouts.css";
 import SocialIcons from "../../components/socialIcons/SocialIcons";
 import { FiChevronRight, FiChevronDown } from "react-icons/fi";
 import { DiRuby, DiReact, DiPostgresql, DiJavascript } from "react-icons/di";
 import { SiRubyonrails } from "react-icons/si";
+
 function About() {
+  const [languageVisible, setLanguageVisible] = useState(false);
+
+  const toggleLanguageVisibility = () => {
+    setLanguageVisible(!languageVisible);
+  };
+
   return (
     <>
       <div className="about-section">
@@ -23,44 +30,46 @@ function About() {
           <span className="span-about">Get my Resume</span>
         </div>
         <div className="about-right">
-          <div className="language">
+          <div className="language" onClick={toggleLanguageVisibility}>
             <h2>Languages</h2>
-            <FiChevronDown />
+            {languageVisible ? <FiChevronDown /> : <FiChevronRight />}
           </div>
+          {languageVisible && (
+            <div className="stack1">
+              <div className="stack2">
+                <div className="stack-icons">
+                  <DiRuby />
+                </div>
+                <p>Ruby</p>
+              </div>
+              <div className="stack2">
+                <div className="stack-iconRails">
+                  <SiRubyonrails />
+                </div>
+                <p>Ruby on Rails</p>
+              </div>
+              <div className="stack2">
+                <div className="stack-iconOthers">
+                  <DiReact />
+                </div>
+                <p>React</p>
+              </div>
+              <div className="stack2">
+                <div className="stack-iconOthers">
+                  <DiPostgresql />
+                </div>
+                <p>Postgresql</p>
+              </div>
+              <div className="stack2">
+                <div className="stack-iconOthers">
+                  <DiJavascript />
+                </div>
+                <p>JavaScript</p>
+              </div>
+            </div>
+          )}
           <div>
             <hr />
-          </div>
-          <div className="stack1">
-            <div className="stack2">
-              <div className="stack-icons">
-                <DiRuby />
-              </div>
-              <p>Ruby</p>
-            </div>
-            <div className="stack2">
-              <div className="stack-iconRails">
-                <SiRubyonrails />
-              </div>
-              <p>Ruby on Rails</p>
-            </div>
-            <div className="stack2">
-              <div className="stack-iconOthers">
-                <DiReact />
-              </div>
-              <p>React</p>
-            </div>
-            <div className="stack2">
-              <div className="stack-iconOthers">
-                <DiPostgresql />
-              </div>
-              <p>Postgresql</p>
-            </div>
-            <div className="stack2">
-              <div className="stack-iconOthers">
-                <DiJavascript />
-              </div>
-              <p>JavaScript</p>
-            </div>
           </div>
           <div className="language">
             <h3>Framework</h3>
@@ -81,4 +90,5 @@ function About() {
     </>
   );
 }
+
 export default About;
