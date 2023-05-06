@@ -5,7 +5,6 @@ import Home from "./pages/home/Home";
 import Projects from "./pages/projects/Projects";
 import Abouts from "./pages/abouts/Abouts";
 import Contacts from "./pages/contacts/Contacts";
-import Main from "./pages/main/Main";
 import NavBar from "./components/navbar/NavBar";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
           <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/main" element={<Main />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<Abouts />} />
           <Route path="/contact" element={<Contacts />} />

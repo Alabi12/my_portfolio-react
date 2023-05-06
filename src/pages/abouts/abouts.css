@@ -38,6 +38,7 @@
 .stack1 {
   display: flex;
   justify-content: space-around;
+  text-align: end;
 }
 
 .connect {
@@ -72,7 +73,7 @@
 }
 
 .stack2 {
-  padding: 2rem;
+  padding: 0.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: transform 0.4s;
 }
@@ -84,8 +85,8 @@
 
 .stack-icons {
   color: red;
-  font-size: 20px;
-  padding: 5px;
+  font-size: 18px;
+  padding: 2px;
 }
 
 .stack-iconRails {

@@ -27,6 +27,7 @@ function About() {
 
   return (
     <>
+    <div className="main"></div>
       <div className="about-section">
         <div className="about-left">
           <h1 className="about-text">About Me</h1>

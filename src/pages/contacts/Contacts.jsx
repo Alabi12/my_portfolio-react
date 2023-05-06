@@ -59,6 +59,7 @@ const Contacts = () => {
 
   return (
     <>
+    <div className="main"></div>
       <div className="form-section">
         <h2>Contact Me</h2>
         <p>

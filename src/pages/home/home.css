@@ -6,17 +6,26 @@
   height: 100vh;
 }
 
+.main-page-text {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 h1 {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  text-align: center;
+  padding: 1rem;
 }
 
 p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  text-align: center;
+  padding: 1rem;
 }
 
 button {
