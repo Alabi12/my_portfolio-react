@@ -6,7 +6,6 @@
   background-color: transparent;
   width: 80%;
   margin: auto;
-  opacity: 0.6;
 }
 
 .Image {
@@ -108,14 +107,16 @@ img {
   gap: 2rem;
   margin: 2rem;
   padding: 0.5rem;
+  text-decoration: none;
   border: none;
   font-size: 18px;
-  background-color: #007bff;
   font-weight: 400;
 }
 
-button:hover {
-  background-color: rgb(229, 229, 229);
+.button a:hover {
+  background-color: #007bff ;
   border-radius: 5px;
-  color: #007bff;
+  color: rgb(229, 229, 229);
+  transition: 1s;
+  
 }
