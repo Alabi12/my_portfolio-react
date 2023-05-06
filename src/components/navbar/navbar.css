@@ -3,6 +3,48 @@
   justify-content: space-between;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(229, 229, 229);
+  border-bottom: 2px solid #222;
+  transition: background-color 0.4s ease, border-bottom-color 0.3s ease;
+}
+
+nav.scrolled {
+  border-bottom-color: #fff; /* Change border-bottom color on scroll */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.flex {
+  display: block;
+}
+
 .big-white {
   display: flex;
   justify-content: space-between;
