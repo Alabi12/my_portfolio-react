@@ -160,14 +160,14 @@ img {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 
-  .rule {
+  /* .rule {
     position: absolute;
     right: 10rem;
     height: 2px;
     width: 20%;
     background-color: #007bff;
     border-radius: 2px;
-  }
+  } */
 
   .about-right {
     display: flex;
