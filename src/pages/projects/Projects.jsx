@@ -3,7 +3,7 @@ import React from "react";
 import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
 import data from "./data";
 import "./projects.css";
-import SocialIcons from "../../Components/socialIcons/SocialIcons";
+import SocialIcons from "../../components/socialIcons/SocialIcons";
 
 const Projects = () => {
   return (

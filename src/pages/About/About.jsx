@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./about.css";
-import SocialIcons from "../../Components/socialIcons/SocialIcons";
+import SocialIcons from '../../components/socialIcons/SocialIcons'
 import { FiChevronRight, FiChevronDown } from "react-icons/fi";
 import { DiRuby, DiReact, DiPostgresql, DiJavascript } from "react-icons/di";
 import { SiRubyonrails } from "react-icons/si";

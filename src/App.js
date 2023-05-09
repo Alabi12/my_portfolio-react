@@ -1,9 +1,10 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
-import Home from "./Pages/Home/Home";
-import Projects from "./Pages/Projects/Projects";
+import About from "./pages/About/About";
+import Home from './pages/home/Home';
+import Navbar from "./components/Navbar";
+import Contacts from './pages/Contact/Contact'
+import Projects from "./pages/projects/Projects";
+
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Home />
       <About />
       <Projects />
-      <Contact />
+      <Contacts />
     </div>
   );
 }
