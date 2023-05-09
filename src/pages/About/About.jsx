@@ -86,9 +86,7 @@ function About() {
                 </div>
               </div>
             )}
-
             <hr />
-
             <div className="language">
               <h3>Framework</h3>
               <div className="skills-show">

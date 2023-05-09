@@ -128,7 +128,7 @@ img {
   .wrapper {
     display: flex;
     flex-direction: column;
-    z-index: 1;
+    z-index: -1;
   }
 
   .content {
@@ -136,7 +136,6 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    padding: 2rem;
   }
 
   .card:nth-child(even) {
@@ -169,4 +168,13 @@ img {
     background-color: #007bff;
     border-radius: 2px;
   }
+
+  .about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 5rem;
+    width: 200%;
+    margin-top: 1rem;
+}
 }
