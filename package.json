@@ -24,7 +24,11 @@
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.9",
     "styled-components": "^5.3.10",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@chakra-ui/icon": "^3.0.14",
+    "@chakra-ui/icons": "^2.0.15",
+    "@chakra-ui/react": "^2.4.6",
+    "framer-motion": "^8.1.8"
   },
   "scripts": {
     "start": "react-scripts start",

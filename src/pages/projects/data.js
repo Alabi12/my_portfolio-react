@@ -37,16 +37,15 @@ const data = [
   },
   {
     id: 3,
-    name: "Space Traveler's Hub",
+    name: "Space Travelers",
     image: myImages[3],
     stack: [
       { name: "REACT", value: "REACT" },
       { name: "CSS", value: "CSS" },
       { name: "JavaScript", value: "JavaScript" },
-      { name: "Webpack", value: "Webpack" },
     ],
     description:
-      "Space Traveler's Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Application is working with the real live data from the SpaceX API.",
+      "Space Travelers is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions",
     sourceLink: "https://github.com/Alabi12/space-travel",
     demoLink: "https://budget-app-m3yc.onrender.com",
   },

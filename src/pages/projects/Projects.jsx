@@ -3,11 +3,11 @@ import React from "react";
 import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
 import data from "./data";
 import "./projects.css";
-import SocialIcons from "../../components/socialIcons/SocialIcons";
+import SocialIcons from "../../Components/socialIcons/SocialIcons";
 
-function Projects() {
+const Projects = () => {
   return (
-    <div className="main">
+    <div id="Projects" className="wrapper">
       <div className="wrapper">
         {data.map(
           ({ id, name, image, description, stack, sourceLink, demoLink }) => (
@@ -17,9 +17,20 @@ function Projects() {
                 <CardTitle className="heading">{name}</CardTitle>
                 <CardText className="text">{description}</CardText>
                 <div className="stacks">
-                    {stack?.map(({ name }) => (
-                      <a href="#" key={name}>{name}</a>
-                    ))}
+                  {stack?.map(({ name }) => (
+                    <button
+                      type="button"
+                      key={name}
+                      style={{
+                        textDecoration: "none",
+                        color: "blue",
+                        border: "none",
+                        backgroundColor: "transparent",
+                      }}
+                    >
+                      {name}
+                    </button>
+                  ))}
                 </div>
                 <hr className="rule" />
                 <SocialIcons />
@@ -42,6 +53,6 @@ function Projects() {
       </div>
     </div>
   );
-}
+};
 
 export default Projects;

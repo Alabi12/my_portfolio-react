@@ -59,12 +59,10 @@ const Contacts = () => {
 
   return (
     <>
-    <div className="main"></div>
-      <div className="form-section">
-        <h2>Contact Me</h2>
+      <div id="Contact" className="form-section">
+        <h1>Contact Me</h1>
         <p>
           If you have an application you are interested in developing, a feature{" "}
-          <br />
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
