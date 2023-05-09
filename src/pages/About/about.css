@@ -35,8 +35,10 @@
 }
 
 .skills-show {
-  background-color: red;
-  text-align: justify;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* text-align: end; */
 }
 
 .stack1 {
@@ -156,8 +158,7 @@ span ul {
   }
 
   .language {
-   background-color: red;
-   width: 40%;
+   width: 50%;
   }
 
   .stack2 {
