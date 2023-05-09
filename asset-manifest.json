@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8ed777f.css",
+    "main.js": "/static/js/main.c1b3affb.js",
+    "static/media/movieapp.png": "/static/media/movieapp.bf599f5f45adb20d2740.png",
+    "static/media/spacetravelapp.png": "/static/media/spacetravelapp.e1c5000eb2217c61c0ff.png",
+    "static/media/Resume_Alabi.pdf": "/static/media/Resume_Alabi.8c55ddeb9c4275facdff.pdf",
+    "static/media/awsomebooks.png": "/static/media/awsomebooks.134c35ff8cd3c2e4894f.png",
+    "static/media/todoapp1.png": "/static/media/todoapp1.b02cbbbebf9c39d7733c.png",
+    "index.html": "/index.html",
+    "main.d8ed777f.css.map": "/static/css/main.d8ed777f.css.map",
+    "main.c1b3affb.js.map": "/static/js/main.c1b3affb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ed777f.css",
+    "static/js/main.c1b3affb.js"
+  ]
+}
